@@ -88,3 +88,10 @@ ROBOTSTXT_OBEY = False
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+# Mysql 数据库的配置信息
+HOST='localhost'
+DB_NAME='testdb'
+USER='root'
+PASSWORD='123456'
+PORT=3306
