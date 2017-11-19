@@ -21,3 +21,9 @@ class DouanMovieItem(scrapy.Item):
     comment_num = scrapy.Field()
     # 经典语录
     quote = scrapy.Field()
+    # 上映年份
+    years = scrapy.Field()
+    # 上映地区
+    region = scrapy.Field()
+    # 电影类型
+    types = scrapy.Field()
