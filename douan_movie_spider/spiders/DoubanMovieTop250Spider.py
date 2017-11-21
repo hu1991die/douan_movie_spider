@@ -22,9 +22,7 @@ class DoubanMovieTop250Spider(Spider):
     def parse(self, response):
         item = DouanMovieItem()
         movieList = response.xpath('//ol[@class="grid_view"]/li')
-        count = 1;
         for movie in movieList:
-            count = count + 1
             # 排名
             rank = movie.xpath('.//div[@class="pic"]/em/text()').extract_first()
             # 封面
